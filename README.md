@@ -1,3 +1,3 @@
 # sccclone
-This website is the colne of https://wbscc.wb.gov.in/
+This website is the colne of wbscc
 It is build for practice purpose only 
