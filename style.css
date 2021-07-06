@@ -1,0 +1,259 @@
+div {
+  display: block;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 70px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.logo-text {
+  padding: 20px;
+  padding-bottom: 5px;
+}
+.admin-login {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.admin-login button {
+  border: none;
+  background-color: #f4f5ff;
+  padding: 4px 15px;
+  color: #344be1;
+  border-radius: 20px;
+}
+.help {
+  padding: 25px 0px 0px 15px;
+}
+.screen-buttons {
+  display: flex;
+  align-items: center;
+  grid-gap: 6px;
+  padding: 0px 10px 15px 18px;
+}
+span {
+  padding: 6px 10px;
+  background-color: #f6f6f6;
+  text-align: center;
+  width: 40px;
+  color: #8860d0;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+header .container {
+  display: flex;
+}
+header {
+  display: block;
+  font-size: medium;
+  font-weight: 500;
+}
+nav {
+  background-color: #000f63;
+}
+.nav-item {
+  font-weight: 600;
+  font-size: large;
+}
+
+nav {
+  background-color: #000f63;
+}
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
+.content {
+  position: absolute;
+  top: 40%;
+  font-weight: bolder;
+  color: #f6f6f6;
+  font-size: 20px;
+}
+.content h1 {
+  font-weight: bolder;
+}
+.display-text {
+  height: 60px;
+  background-color: #fff5b1;
+  font-size: large;
+  font-weight: 700;
+}
+/*about*/
+.about-wbscc {
+  padding: 40px 40px;
+}
+.card-img img {
+  max-width: 70%;
+}
+.about-text {
+  position: relative;
+  right: 13%;
+}
+.card-text {
+  font-size: medium;
+  font-weight: 500;
+}
+.row {
+  display: flex;
+}
+.how-it-works {
+  padding: 20px;
+}
+.how-it-works .card-title {
+  padding-bottom: 20px;
+}
+.col h5 {
+  margin-top: 16px;
+}
+
+.special-message {
+  padding: 40px 60px;
+  background-color: #eff4fa;
+}
+.special-message .card {
+  margin-top: 40px;
+  width: auto;
+  border-radius: 10px;
+  border-color: #344be1;
+}
+.special-message .card-text {
+  font: 20px sans-serif;
+  padding: 40px;
+}
+.special-message .msg-img {
+  border: 1px solid #eff4fa;
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: -45px;
+  margin-left: 60px;
+}
+.orders {
+  padding: 60px;
+}
+.card-title {
+  font-weight: bolder;
+}
+#border {
+  width: 70px;
+  position: absolute;
+  border-bottom: 4px solid blue;
+}
+.noti {
+  padding-top: 40px;
+}
+.noti a {
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+.noti span {
+  background-color: #e7ebf3;
+  height: 20px;
+  padding: 20px;
+}
+footer {
+  background-color: #5580e9;
+}
+footer.copy {
+  background-color: #3a60bc;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: #eff4fa;
+ font-size: medium;
+ font-weight: 600; 
+}
+footer i{
+  padding: 2px;
+  height :3px;
+}
+footer a:hover{
+  color: #eff4fa;
+}
+footer h5{
+  color: #f4f5ff;
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+  .admin-login {
+    display: none;
+  }
+  .screen-buttons {
+    display: none;
+  }
+  header {
+    display: block;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .logo-text {
+    padding-top: 20px;
+  }
+  .content h1 {
+    font-size: 10px;
+  }
+  .content {
+    position: absolute;
+    top: 20%;
+    font-weight: bolder;
+    color: #f6f6f6;
+    font-size: 10px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 280px) {
+  header {
+    display: block;
+    font-size: 4px;
+    font-weight: bolder;
+  }
+  .logo-text {
+    padding: 20px;
+  }
+  .content h1 {
+    font-size: 20px;
+  }
+  .content {
+    position: relative;
+    top: 60%;
+    font-weight: bolder;
+    color: #f6f6f6;
+    font-size: 10px;
+  }
+}
+
+@media (min-width:270) {
+  header {
+    display: block;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .logo-text {
+    padding: 20px;
+  }
+  .content h1 {
+    font-size: 15px;
+  }
+  .content {
+    position: absolute;
+    top: 100%;
+    font-weight: bolder;
+    color: #141313;
+    font-size: 10px;
+  }
+}
